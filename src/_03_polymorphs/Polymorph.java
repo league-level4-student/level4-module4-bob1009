@@ -1,11 +1,14 @@
 package _03_polymorphs;
 
 import java.awt.Graphics;
+import java.util.Random;
 
 public abstract class Polymorph {
   protected  int x;
   protected  int y;
     
+  int height=50;
+  int width=50;
     Polymorph(int x, int y){
    	 this.x = x;
    	 this.y = y;
@@ -23,7 +26,7 @@ public abstract class Polymorph {
     	this.y=y;
     }
     public void update(){
-   	 
+    	
     }
     
     public abstract void draw(Graphics g);

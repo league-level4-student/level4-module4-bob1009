@@ -4,8 +4,8 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class BluePolymorph extends Polymorph{
- int width=500;
- int height=500;
+ int width=50;
+ int height=50;
 	BluePolymorph(int x, int y) {
 		super(x, y);
 	}
